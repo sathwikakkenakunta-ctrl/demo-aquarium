@@ -475,7 +475,7 @@ details {
   font-weight: 800;
 }
 
-.reviews {
+.section.reviews {
   background:
     linear-gradient(135deg, rgba(6, 57, 75, 0.95), rgba(8, 126, 164, 0.92)),
     url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1600&q=80") center / cover;
