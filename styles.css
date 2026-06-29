@@ -487,7 +487,15 @@ details {
 }
 
 .reviews-wrap p {
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.reviews-wrap > div:first-child {
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius);
+  background: rgba(3, 29, 43, 0.42);
+  backdrop-filter: blur(12px);
 }
 
 .rating-card {
