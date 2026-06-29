@@ -478,12 +478,17 @@ details {
 .section.reviews {
   background:
     linear-gradient(135deg, rgba(6, 57, 75, 0.95), rgba(8, 126, 164, 0.92)),
-    url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1600&q=80") center / cover;
+    url("https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1600&q=80") center / cover !important;
   color: var(--white);
 }
 
 .reviews .eyebrow {
   color: #9ef5de;
+}
+
+.reviews h2 {
+  color: #ffffff;
+  text-shadow: 0 2px 16px rgba(3, 29, 43, 0.36);
 }
 
 .reviews-wrap p {
